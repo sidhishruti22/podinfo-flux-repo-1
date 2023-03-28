@@ -1,6 +1,6 @@
 components:
 - name: github.com/acme/podinfo
-  version: "v1.0.1"
+  version: "v1.1.1"
   provider:
     name: acme.org
   resources:
@@ -18,7 +18,7 @@ components:
         compress: true
     - name: image
       type: ociImage
-      version: "v6.2.1"
+      version: "v6.3.5"
       access:
         type: ociArtifact
-        imageReference: ghcr.io/stefanprodan/podinfo:6.2.0
+        imageReference: ghcr.io/stefanprodan/podinfo:6.3.5

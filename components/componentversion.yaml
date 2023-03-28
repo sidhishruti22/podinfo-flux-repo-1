@@ -7,7 +7,7 @@ spec:
   interval: 10m0s
   component: github.com/acme/podinfo
   version:
-    semver: v1.0.1
+    semver: v1.1.1
   repository:
     url: ghcr.io/sidhishruti22
     secretRef:
