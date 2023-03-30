@@ -23,7 +23,7 @@ components:
         type: ociArtifact
         imageReference: ghcr.io/stefanprodan/podinfo:6.3.5
     - name: replicaset
-      type: PlainText
+      type: PlainText 
       input:
         type: file
         path: "config.yaml"
