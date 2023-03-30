@@ -13,4 +13,4 @@ localization:
     image: spec.replicas
     resource:
       name: replicaSet
-      value: 2
+      value: 3
