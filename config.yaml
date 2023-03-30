@@ -8,3 +8,8 @@ localization:
     image: spec.template.spec.containers[0].image
     resource:
       name: image
+  - name: replicaSet
+    file: deployment.yaml
+    image: spec.replicas
+    resource:
+      name: replicaSet
