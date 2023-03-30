@@ -28,4 +28,3 @@ components:
         type: file
         path: "config.yaml"
         compress: true
-        value: 2
